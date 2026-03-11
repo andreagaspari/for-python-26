@@ -38,7 +38,7 @@ print(f"Ciao {nome}, bentornato!")
 	In Python esistono due tipi di numeri: 
 	interi e decimali, la conversione da 
 	intero a decimale avviene in automatico, se necessario
-''''
+'''
 print(10) #Numero intero (int)
 print(3.13) #Numero decimale (float)
 print(10 / 3) #La divisione tra numeri interi può ritornare un numero decimale
