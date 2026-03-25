@@ -1,11 +1,12 @@
 from calcolatrice import *
+from check_input import *
 
 ricomincia = True
 while ricomincia :
     # Chiedi numeri e operatore
-    numero1 = int(input("Inserisci il primo numero: "))
-    operatore = input("Inserisci l'operatore: ")
-    numero2 = int(input("Inserisci il secondo numero: "))
+    numero1 = input_float("Inserisci il primo numero: ")
+    operatore = input_operatore("Inserisci l'operatore: ")
+    numero2 = input_float("Inserisci il secondo numero: ")
 
     # Risultato
     risultato = calcolatrice(numero1, numero2, operatore)
