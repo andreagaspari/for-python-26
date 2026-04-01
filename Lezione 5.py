@@ -36,7 +36,8 @@ with open('file.txt', 'r') as file:
 
 
 '''
-    Es 1. Aprire il file in modalità 'append' e inserire, uno per riga,
+    Esercizio 1. 
+    Aprire il file in modalità 'append' e inserire, uno per riga,
     i numeri da 1 a 100
 '''
 with open('file.txt', 'a') as file:
@@ -203,7 +204,8 @@ finally:
         print("Il file non esiste")
 
 '''
-    Esempio: Creare una semplice rubrica con le funzioni stampa e aggiungi
+    Esercizio 2: 
+    Creare una semplice rubrica con le funzioni stampa e aggiungi
     persone (Nome,Cognome,Telefono).
 '''
 try:
